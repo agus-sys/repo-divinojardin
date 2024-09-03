@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.Menu{
+    background-color:#03A696;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 15px;
+    box-shadow: 0 0 10px #402E7A;
+    }
+
+    .Menu-links{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+
+    a{
+        color: white;
+    }
+
+    
+   .foto-full {
+    background-image: url(./imagenes/GettyImages-157338783.jpg);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .foto-full span{
+    background-color: #F27457;
+    color: white;
+    font-size: 40px;
+    padding: 10px 15px;
+   }
+
+   .Empresa{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #253659;
+   padding: 55px 0 55px 0;
+   }
+
+   .Subtitulo{
+    font-style: oblique;
+    padding: 45px 0 35px 0;
+    text-align: center;
+    color: #253659;
+   }
+
+   .Personal{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    color: #253659;
+   }
+
+   .Textos{
+    line-height: 35px;
+   }
+
+
+   
+   
+
+   .Titulos{
+    text-align: center;
+    color: #253659;
+    font-size: 25px;
+    padding: 45px 0 35px 0;
+   }
+
+   .Habilidades{
+    max-width: 1000px;
+    margin: auto;
+    color: #253659;
+   }
+
+   .Habilidades h2{
+    padding: 15px 0 15px 0;
+   }
+   .barra{
+    background-color: #253659;
+    height: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+   .barra-porcentaje{
+    background-color: #03A696;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noventa-porciento{
+    width: 90%;
+}
+
+.ochenta-porciento{
+    width: 80%;
+}
+
+.cincuenta-porciento{
+    width: 50%;
+}
+
+.barra-datos{
+    background-color: #03A696;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 65px;
+    font-size: 20px;
+}
+
+.Proyectos{
+    
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+   margin: 25px;
+  
+}
+
+.Proyectos img{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    
+}
+
+.imagen-hover{
+     
+        transition: transform 0.3s ease; /* Transición suave */  
+    }  
+
+    .imagen-hover:hover {  
+        transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */  
+    }  
+
+
+.Contacto{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #253659;
+}
+
+.Formulario form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    color: #253659;
+}
+
+.Formulario h3{
+    margin-bottom: 25px;
+}
+
+.Formulario textarea{
+    display: block;
+}
+
+.Formulario form div{
+    display: flex;
+    gap: 5px;
+}
+
+.Formulario .comentario{
+    flex-direction: column;
+}
+
+
+input:required{
+    
+    border: 2px solid #253659;
+    border-radius: 5px;
+}
+input:focus{
+    
+    border: 2px solid #253659;
+    border-radius: 5px;
+}
+
+.Footer{
+    background-color: #03A696;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+
